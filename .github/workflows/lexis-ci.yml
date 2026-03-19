@@ -1,0 +1,12 @@
+name: Lexis CI
+on:
+  pull_request:
+    types: [opened, synchronize, reopened]
+jobs:
+  validate:
+    if: github.actor != 'lexis-app[bot]'
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Validate SUMMARY.md
+        run: bash .lexis/ci/validate-summary.sh
