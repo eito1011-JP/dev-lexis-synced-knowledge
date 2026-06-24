@@ -1,7 +1,5 @@
 # Summary
 
-* fdsfasfsd
-  * [fsdfds](fdsfasfsd/fsdfds.md)
 * お客様対応
   * [問い合わせ・クレーム対応](お客様対応/問い合わせ・クレーム対応.md)
   * [料金と割引の方針](お客様対応/料金と割引の方針.md)
